@@ -12,3 +12,6 @@
   padding: 15px;
   max-width: 100%;
 }
+body {
+  background: grey !important;
+}
