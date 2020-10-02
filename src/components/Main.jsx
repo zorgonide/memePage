@@ -6,7 +6,7 @@ export class Main extends Component {
         this.state = {
             img: 'sad',
             topText: ["Mech+bois", "Civil+bois", "IP+bois", "ICE+bois"],
-            bottomText: ["Placement+nhi+bhaukal", "Chaud", "Jaldi+se+dood+pee+leta+hun", "Professional+Virgins", "Civil+chutiya", "TT+core+committee+for+lyf", "Company+nhi+ladki+milti+humme", "Mummy+ka+laadla", "Na+dare+na+bhide+jab+mann+kare+OT+me+tapak+jaaye" , "Tiktok+is+passion" , "4LPA+job+andhapaisa", "cringeee", "Maths+2+makeup+time"],
+            bottomText: ["Placement+nhi+bhaukal", "Chaud", "Jaldi+se+dood+pee+leta+hun", "Professional+Virgins", "Civil+chutiya", "TT+core+committee+for+lyf", "Company+nhi+ladki+milti+humme", "Mummy+ka+laadla", "Na+dare+na+bhide+jab+mann+kare+OT+me+tapak+jaaye" , "Tiktok+is+passion" , "4LPA+job+andhapaisa", "cringeee", "Maths+2+makeup+time", "baap+ka+paisa+bahut+hai", "hum+kisi+se+kam+nhi", "me+unity+hai+brooooo"],
             options: data,
         };
     }
@@ -18,8 +18,8 @@ export class Main extends Component {
                 <div className="col">
                     <div className="d-flex justify-content-center align-items-center login-container">
                         <div className="card border text-center">
-                            <h1 className="text-danger ">Hello, I'm Bhaukal</h1>
-                            <a href={str} className="btn btn-danger">For proof click here</a>
+                            <h1 className="mr-2 ml-2">Hello, I'm Bhaukal</h1>
+                            <a href={str} className="btn btn-danger mr-2 ml-2 mb-2">For proof click here</a>
                         </div>
                     </div>
                 </div>

@@ -13,5 +13,8 @@
   max-width: 100%;
 }
 body {
-  background: grey !important;
+  background: #006062 !important;
+}
+.card{
+  background-color: #31D8A7 !important;
 }
