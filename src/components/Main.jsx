@@ -12,6 +12,7 @@ export class Main extends Component {
     }
     render() {
         let str = `http://apimeme.com/meme?meme=${this.state.options[Math.floor(Math.random()*1700)]}&top=${this.state.topText[Math.floor(Math.random()*this.state.topText.length)]}&bottom=${this.state.bottomText[Math.floor(Math.random()*this.state.bottomText.length)]}&test=1`
+        
         return (
             <div className="container">
                 <div className="col">
