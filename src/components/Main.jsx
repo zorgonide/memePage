@@ -8,7 +8,6 @@ export class Main extends Component {
             topText: ["Mech+bois", "Civil+bois", "IP+bois"],
             bottomText: ["Placement+nhi+bhaukal", "#Chaud", "Jaldi+se+dood+pee+leta+hun", "Professional+Virgins", "Civil+chutiya"],
             options: data,
-            str: `http://apimeme.com/meme?meme=${data[Math.floor(Math.random()*1700)]}&top=Top+text&bottom=Bottom+text&test=1`
         };
     }
     render() {
